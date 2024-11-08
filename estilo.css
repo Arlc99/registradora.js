@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rowdies:wght@300;400;700&display=swap');
+
+body {
+    font-family: "Rowdies", sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #A0BBA8;
+}
+h1 {
+    text-align: center;
+}
+
+
+.registradora{
+    display: flex;
+    
+    justify-content: center;
+}
+.container {
+    max-width: 600px;
+    margin: 50px ;
+    background:  #4E6E58;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(14, 14, 14, 0.1);
+}
+.factura {
+    width: 600px;
+    margin: 50px;
+    box-shadow: 5px 5px 10px rgba(10, 10, 10, 0.1);
+    max-width: 600px;
+    border-radius: 5px;
+    background: #4E6E58;
+}
+.factura h2 {
+    text-align: center;
+
+}
+.facturar {
+    display: flex;
+}
+.producto {
+    width: 250px;
+    background-color:  #A0BBA8 ;
+   padding: 20px;
+   margin: 20px;
+   border: solid 1px black;
+   border-radius: 5px;
+}
+.cantidad {
+    width: 250px;
+    background-color:  #A0BBA8 ;
+   padding: 20px;
+   margin: 20px;
+   border: solid 1px black;
+   border-radius: 5px;
+}
+.botones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.boton {
+    width: 200px;
+    margin: 20px;
+    color:white;
+    background-color: #080C0A;
+}
+.boton:hover {
+    background-color: #90B6A4;
+}
+#total {
+    font-size: 30px;
+   
+    margin: 30px;
+}
+#producto {
+    background-color: #A0BBA8;
+    font-family: "Rowdies", sans-serif;
+    
+}
+#cantidad {
+    background-color: #A0BBA8;
+    font-family: "Rowdies", sans-serif;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+select, input[type="number"], button {
+    width: 200px;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.total {
+    margin-top: 20px;
+    font-size: 1.2em;
+}

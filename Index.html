@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1> MINI MARKET</h1>
+    <div class="registradora">
+        <div class="container">
+            <h1>Registradora</h1>
+            <label for="producto">Selecciona un producto:</label>
+            <select id="producto">
+                <option value="" data-precio="0">-- Elige un producto --</option>
+                <option value="producto1" data-precio="5000">Azucar - $5000</option>
+                <option value="producto2" data-precio="3000">coca cola  - $3000</option>
+                <option value="producto3" data-precio="10000">fab - $10000</option>
+                <option value="producto3" data-precio="5000">cuaderno - $5000</option>
+                <option value="producto3" data-precio="3000">frijol - $3000</option>
+                <option value="producto3" data-precio="3000">lenteja - $3000</option>
+                <option value="producto3" data-precio="2900">leche - $2900</option>
+                <option value="producto3" data-precio="2900">huevos - $16000</option>
+                <option value="producto3" data-precio="1200">espaguetis - $1200</option>
+            </select>
+
+            <label for="cantidad">Cantidad:</label>
+            <input type="number" id="cantidad" min="1" value="1">
+
+            <button class="boton" id="agregar">Agregar a la factura</button>
+
+            
+        </div>
+        <div class="factura">
+            <h2>FACTURA</h2>
+            <div class="facturar">
+                <div id="p" class="producto">
+                    productos
+                </div>
+                <div id="c" class="cantidad">
+                    cantidad
+                </div>
+            </div>
+            <div class="botones">
+                <button class="boton" id="borrar">BORRAR</button>
+                <button class="boton" id="comprar">COMPRAR</button>
+            </div>
+            <div class="total" id="total">Total: $0</div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+
+    <script src="js.js"></script>
+</body>
+
+</html>
